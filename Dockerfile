@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get clean all
 
 RUN pip install --upgrade pip && \
-    pip install conan==0.28.0 coverage==4.4.1 flake8==3.4.1 gcovr==3.3 && \
+    pip install conan==1.0.2 coverage==4.4.2 flake8==3.5.0 gcovr==3.3 && \
     rm -rf /root/.cache/pip/*
 
 ENV CONAN_USER_HOME=/conan

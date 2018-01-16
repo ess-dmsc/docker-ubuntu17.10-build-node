@@ -1,6 +1,6 @@
 # docker-ubuntu17.10-build-node
 
-Dockerfile for a Ubuntu 17.10 build node
+Dockerfile for an Ubuntu 17.10 build node
 
 
 ## Building
