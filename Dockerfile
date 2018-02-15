@@ -2,7 +2,7 @@ FROM ubuntu:17.10
 
 RUN apt-get update && \
     apt-get -y upgrade && \
-    apt-get -y install clang-format cloc cmake cppcheck doxygen g++ git graphviz lcov python-pip valgrind vim-common && \
+    apt-get -y install clang-format cloc cmake cppcheck doxygen g++ git graphviz lcov python-pip valgrind vim-common tzdata && \
     apt-get -y autoremove && \
     apt-get clean all
 
