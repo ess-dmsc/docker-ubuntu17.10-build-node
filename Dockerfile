@@ -31,3 +31,5 @@ RUN chown -R jenkins $CONAN_USER_HOME/.conan
 USER jenkins
 
 WORKDIR /home/jenkins
+
+RUN conan install cmake_installer/3.10.0@conan/stable
