@@ -1,3 +1,6 @@
+**This build node image has been deprecated — use
+https://github.com/ess-dmsc/docker-ubuntu18.04-build-node instead.**
+
 # docker-ubuntu17.10-build-node
 
 Dockerfile for an Ubuntu 17.10 build node
